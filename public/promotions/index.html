@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="shortcut icon" href="../img/logo.svg" />
+		<title>iLimits - Content Management System</title>
+		<link href="../css/app.css" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../css/component.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav id="sidebar" class="sidebar js-sidebar">
+				<div class="sidebar-content js-simplebar">
+					<a class="sidebar-brand" href="index.html">
+						<img src="../img/logo.svg" alt="" width="180" class="me-2" />
+					</a>
+					<ul id="sidebar-nav" class="sidebar-nav">
+						<li class="sidebar-header">Pages</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="../index.html">
+								<i class="align-middle" data-feather="sliders"></i>
+								<span class="align-middle">Dashboard</span>
+							</a>
+						</li>
+						<li class="sidebar-header">Web Pages</li>
+						<li class="sidebar-item active">
+							<a class="sidebar-link" href="/promotions/">
+								<i class="align-middle" data-feather="target"></i>
+								<span class="align-middle">Promotion</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="#">
+								<i class="align-middle" data-feather="trello"></i>
+								<span class="align-middle">Landing Pages</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="#">
+								<i class="align-middle" data-feather="file-text"></i>
+								<span class="align-middle">License and Regulation</span>
+							</a>
+						</li>
+						<li class="sidebar-header">Tools & Components</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="#">
+								<i class="align-middle" data-feather="mail"></i>
+								<span class="align-middle">Messages</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="#">
+								<i class="align-middle" data-feather="bell"></i>
+								<span class="align-middle">Notifications</span>
+							</a>
+						</li>
+						<li class="sidebar-header">Profile and Settings</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="#">
+								<i class="align-middle" data-feather="user"></i>
+								<span class="align-middle">Profile</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="#">
+								<i class="align-middle" data-feather="settings"></i>
+								<span class="align-middle">Settings & Privacy</span>
+							</a>
+						</li>
+						<li class="sidebar-item">
+							<a class="sidebar-link" href="./helpcenter/">
+								<i class="align-middle" data-feather="help-circle"></i>
+								<span class="align-middle">Help Center</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="main">
+				<nav class="navbar navbar-expand navbar-light navbar-bg">
+					<a class="sidebar-toggle js-sidebar-toggle">
+						<i class="hamburger align-self-center"></i>
+					</a>
+					<div class="navbar-collapse collapse">
+						<ul class="navbar-nav navbar-align">
+							<li class="nav-item dropdown">
+								<a
+									class="nav-icon dropdown-toggle"
+									href="#"
+									id="alertsDropdown"
+									data-bs-toggle="dropdown">
+									<div class="position-relative">
+										<i class="align-middle" data-feather="bell"></i>
+										<!-- <span class="indicator">4</span> -->
+									</div>
+								</a>
+								<div
+									class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+									aria-labelledby="alertsDropdown">
+									<div class="dropdown-menu-header">Notifications</div>
+									<div class="dropdown-menu-footer">
+										<a href="#" class="text-muted">No Notifications</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-icon dropdown-toggle"
+									href="#"
+									id="messagesDropdown"
+									data-bs-toggle="dropdown">
+									<div class="position-relative">
+										<i class="align-middle" data-feather="message-square"></i>
+									</div>
+								</a>
+								<div
+									class="dropdown-menu dropdown-menu-lg dropdown-menu-end py-0"
+									aria-labelledby="messagesDropdown">
+									<div class="dropdown-menu-header">
+										<div class="position-relative">0 New Messages</div>
+									</div>
+									<div class="dropdown-menu-footer">
+										<a href="#" class="text-muted">no unread message</a>
+									</div>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-icon dropdown-toggle d-inline-block d-sm-none"
+									href="#"
+									data-bs-toggle="dropdown">
+									<i class="align-middle" data-feather="settings"></i>
+								</a>
+								<a
+									class="nav-link dropdown-toggle d-none d-sm-inline-block"
+									href="#"
+									data-bs-toggle="dropdown">
+									<img
+										src="../img/avatars/user-profile-svgrepo-com.svg"
+										class="avatar img-fluid rounded me-1"
+										alt="Charles Hall" />
+									<span class="text-dark">Admin</span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a class="dropdown-item" href="#">
+										<i class="align-middle me-1" data-feather="user"></i>
+										Profile
+									</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">
+										<i class="align-middle me-1" data-feather="settings"></i>
+										Settings & Privacy
+									</a>
+									<a class="dropdown-item" href="#">
+										<i class="align-middle me-1" data-feather="help-circle"></i>
+										Help Center
+									</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Log out</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<main class="content">
+					<div class="container-fluid p-0">
+						<div class="d-flex d-flex align-items-center gap-3">
+							<h2 class="fw-bold">Promotions</h2>
+							<a href="./detail.html" class="fw-bold link-primary">Add New Content</a>
+						</div>
+						<div class="row g-1 align-items-center">
+							<div class="col">
+								<div class="input-group">
+									<span class="input-group-text" id="inputGroup-sizing-sm"
+										><i class="align-middle" data-feather="search"></i
+									></span>
+									<input
+										type="text"
+										class="form-control"
+										aria-label="Sizing example input"
+										aria-describedby="inputGroup-sizing-sm"
+										placeholder="Type something to search.." />
+								</div>
+							</div>
+							<div class="col-2">
+								<select id="sortContent" class="form-select" aria-label="Default select example">
+									<option value="0" selected disabled>Sort By</option>
+									<option value="dateNewest">Newest</option>
+									<option value="dateOldest">Oldest</option>
+									<option value="titleAsc">Title (A-Z)</option>
+									<option value="titleDesc">Title (Z-A)</option>
+								</select>
+							</div>
+						</div>
+						<div id="promotionItemContainer" class="row mt-3 d-flex">
+							<div id="nodataPlaceholder" class="d-flex justify-content-center align-items-center">
+								<h3 class="text-secondary">No Data Found</h3>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+		<script src="../js/app.js"></script>
+		<script src="../js/promotions/index.js"></script>
+		<script src="../js/utils/commonUtils.js"></script>
+		<!-- Fontawesome CDN -->
+		<script src="https://kit.fontawesome.com/996b4fade0.js" crossorigin="anonymous"></script>
+	</body>
+</html>

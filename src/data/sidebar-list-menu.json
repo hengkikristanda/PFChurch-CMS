@@ -1,0 +1,83 @@
+{
+	"sideBarListMenu": [
+		{
+			"header": "Home",
+			"menu": [
+				{
+					"id": 1,
+					"label": "Dashboard",
+					"href": "/",
+					"classList": ["bi", "bi-sliders"]
+				}
+			]
+		},
+		{
+			"header": "News",
+			"menu": [
+				{
+					"id": 2,
+					"label": "Sabbath Shallom",
+					"href": "/news/sabbathShallom/",
+					"classList": ["bi", "bi-camera-video-fill"]
+				}
+			]
+		},
+		{
+			"header": "Web Pages Info",
+			"menu": [
+				{
+					"id": 3,
+					"label": "Persembahan",
+					"href": "/info/persembahan/",
+					"classList": ["bi", "bi-currency-exchange"]
+				},
+				{
+					"id": 4,
+					"label": "About Us",
+					"href": "/info/aboutUs/",
+					"classList": ["bi", "bi-people-fill"]
+				},
+				{
+					"id": 5,
+					"label": "Contact Us",
+					"href": "/info/contactUs/",
+					"classList": ["bi", "bi-telephone-fill"]
+				}
+			]
+		},
+		{
+			"header": "Tools & Components",
+			"menu": [
+				{
+					"id": 6,
+					"label": "Messages",
+					"href": "index.html",
+					"classList": ["bi", "bi-envelope-fill"]
+				},
+				{
+					"id": 7,
+					"label": "Notifications",
+					"href": "index.html",
+					"classList": ["bi", "bi-bell-fill"]
+				}
+			]
+		},
+		{
+			"header": "Profile and Settings",
+			"menu": [
+				{
+					"id": 8,
+					"label": "Profile",
+					"href": "index.html",
+					"classList": ["bi", "bi-person-fill"]
+				},
+				{
+					"id": 9,
+					"label": "Settings & Privacy",
+					"href": "index.html",
+					"classList": ["bi", "bi-gear"]
+				}
+			]
+		}
+	]
+}
