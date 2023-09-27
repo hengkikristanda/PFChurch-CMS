@@ -52,3 +52,9 @@ function sortByKey(array, key, order) {
 		}
 	});
 }
+
+const enforceInputNumber = (inputElement) => {
+	inputElement.addEventListener("input", function () {
+		this.value = this.value.replace(/[^0-9]/g, "");
+	});
+};

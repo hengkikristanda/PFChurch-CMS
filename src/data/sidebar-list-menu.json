@@ -4,7 +4,7 @@
 			"header": "Home",
 			"menu": [
 				{
-					"id": 1,
+					"id": "8f2cf213",
 					"label": "Dashboard",
 					"href": "/",
 					"classList": ["bi", "bi-sliders"]
@@ -15,7 +15,7 @@
 			"header": "News",
 			"menu": [
 				{
-					"id": 2,
+					"id": "58fb0e86",
 					"label": "Sabbath Shallom",
 					"href": "/news/sabbathShallom/",
 					"classList": ["bi", "bi-camera-video-fill"]
@@ -26,19 +26,19 @@
 			"header": "Web Pages Info",
 			"menu": [
 				{
-					"id": 3,
+					"id": "73cf749e",
 					"label": "Persembahan",
 					"href": "/info/persembahan/",
 					"classList": ["bi", "bi-currency-exchange"]
 				},
 				{
-					"id": 4,
+					"id": "f6d3a140",
 					"label": "About Us",
 					"href": "/info/aboutUs/",
 					"classList": ["bi", "bi-people-fill"]
 				},
 				{
-					"id": 5,
+					"id": "78d25c59",
 					"label": "Contact Us",
 					"href": "/info/contactUs/",
 					"classList": ["bi", "bi-telephone-fill"]
@@ -49,13 +49,13 @@
 			"header": "Tools & Components",
 			"menu": [
 				{
-					"id": 6,
+					"id": "f85c14ab",
 					"label": "Messages",
 					"href": "index.html",
 					"classList": ["bi", "bi-envelope-fill"]
 				},
 				{
-					"id": 7,
+					"id": "ca02aa1f",
 					"label": "Notifications",
 					"href": "index.html",
 					"classList": ["bi", "bi-bell-fill"]
@@ -66,13 +66,13 @@
 			"header": "Profile and Settings",
 			"menu": [
 				{
-					"id": 8,
+					"id": "d18baee8",
 					"label": "Profile",
 					"href": "index.html",
 					"classList": ["bi", "bi-person-fill"]
 				},
 				{
-					"id": 9,
+					"id": "1b14a0a4",
 					"label": "Settings & Privacy",
 					"href": "index.html",
 					"classList": ["bi", "bi-gear"]
